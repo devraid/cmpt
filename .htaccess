@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+AddType application/x-font-woff .woff
+
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]

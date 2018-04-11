@@ -1,0 +1,369 @@
+/* MAIN : CONTENT : CREATE SELECT */
+div.main div.content div.create-select {
+	position:                    relative;
+	top:                         0px;
+	left:                        0px;
+	padding:                     60px 0px 30px 0px;
+	margin:                      0px auto;
+	width:                       960px;
+	height:                      38px;
+	
+	/* Transition */
+	-webkit-transition:          all 0.25s ease-out;
+	-moz-transition:             all 0.25s ease-out;
+	-ms-transition:              all 0.25s ease-out;
+	-o-transition:               all 0.25s ease-out;
+	-khtml-transition:           all 0.25s ease-out;
+	transition:                  all 0.25s ease-out;
+}
+
+/* MAIN : CONTENT : CREATE SELECT : CREATE BUTTON */
+div.main div.content div.create-select a.create-button {
+	float:                       right;
+	margin:                      0px 40px 0px 0px;
+	width:                       100px;
+	height:                      38px;
+	line-height:                 38px;
+	text-align:                  center;
+	text-transform:              uppercase;
+	font-family:                 'proxima-nova';
+	font-style:                  normal;
+	font-weight:                 700;
+	color:                       #FFFFFF;
+	font-size:                   13.5pt;
+	text-decoration:             none;
+	background-color:            #F15500;
+	display:                     block;
+	
+	/* Smooth fonts */
+	-webkit-transform:           rotate(-0.0000000001deg);
+	-webkit-text-stroke:         0.5px transparent;
+	
+	/* Border and shadow */
+	-webkit-border-radius:       5px;
+	-moz-border-radius:          5px;
+	border-radius:               5px;
+	-webkit-box-shadow:          0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:             0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	box-shadow:                  0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	behavior:                    url(htc/PIE.php)\9;
+	
+	/* Transition */
+	-webkit-transition:          background 0.25s ease-in-out;
+	-moz-transition:             background 0.25s ease-in-out;
+	-ms-transition:              background 0.25s ease-in-out;
+	-o-transition:               background 0.25s ease-in-out;
+	-khtml-transition:           background 0.25s ease-in-out;
+	transition:                  background 0.25s ease-in-out;
+}
+div.main div.content div.create-select a.create-button:hover {
+	background-color:            #FF7800;
+}
+
+/* MAIN : CONTENT : CREATE SELECT : H2 */
+div.main div.content div.create-select h2 {
+	float:                       left;
+	width:                       160px;
+	height:                      38px;
+	line-height:                 38px;
+	text-align:                  left;
+	text-transform:              uppercase;
+	font-family:                 'proxima-nova';
+	font-style:                  normal;
+	font-weight:                 700;
+	color:                       #000000;
+	font-size:                   13.5pt;
+	display:                     block;
+	
+	/* Smooth fonts */
+	-webkit-transform:           rotate(-0.0000000001deg);
+	-webkit-text-stroke:         0.5px transparent;
+}
+
+/* MAIN : CONTENT : CREATE SELECT : MENU */
+div.main div.content div.create-select ul {
+	float:                       left;
+	position:                    relative;
+	top:                         0px;
+	left:                        0px;
+	padding:                     38px 0px 0px 0px;
+	width:                       640px;
+	height:                      0px;
+	background-color:            #FFFFFF;
+	display:                     block;
+	overflow:                    hidden;
+	
+	/* Smooth fonts */
+	-webkit-transform:           rotate(-0.0000000001deg);
+	-webkit-text-stroke:         0.5px transparent;
+	
+	/* Border and shadow */
+	-webkit-border-radius:       5px;
+	-moz-border-radius:          5px;
+	border-radius:               5px;
+	-webkit-box-shadow:          0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:             0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	box-shadow:                  0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	behavior:                    url(htc/PIE.php)\9;
+	
+	/* Transition */
+	-webkit-transition:          all 0.25s ease-out;
+	-moz-transition:             all 0.25s ease-out;
+	-ms-transition:              all 0.25s ease-out;
+	-o-transition:               all 0.25s ease-out;
+	-khtml-transition:           all 0.25s ease-out;
+	transition:                  all 0.25s ease-out;
+}
+div.main div.content div.create-select.selected {
+	height:                      114px;
+}
+div.main div.content div.create-select.selected ul {
+	height:                      76px;
+}
+div.main div.content div.create-select ul li,
+div.main div.content div.create-select ul li a {
+	height:                      38px;
+	line-height:                 38px;
+	width:                       100%;
+	display:                     block;
+}
+div.main div.content div.create-select ul li a {
+	padding:                     0px 0px 0px 13px;
+	text-transform:              uppercase;
+	font-family:                 'proxima-nova';
+	font-style:                  normal;
+	font-weight:                 700;
+	color:                       #575A5D;
+	font-size:                   13.5pt;
+	text-decoration:             none;
+	cursor:                      pointer;
+	background-color:            #FFFFFF;
+	
+	/* Transition */
+	-webkit-transition:          color 0.25s ease-in-out;
+	-moz-transition:             color 0.25s ease-in-out;
+	-ms-transition:              color 0.25s ease-in-out;
+	-o-transition:               color 0.25s ease-in-out;
+	-khtml-transition:           color 0.25s ease-in-out;
+	transition:                  color 0.25s ease-in-out;
+}
+div.main div.content div.create-select ul li a span.arrow {
+	float:                       right;
+	position:                    absolute;
+	top:                         11px;
+	right:                       18px;
+	
+	font-size:                   1pt;
+	width:                       0px;
+	height:                      0px;
+	line-height:                 0px;
+	border-style:                solid;
+	border-width:                16px 8px 0px 8px;
+	border-color:                #F15500 transparent transparent transparent;
+	visibility:                  hidden;
+}
+div.main div.content div.create-select.selected ul li a span.arrow {
+	border-width:                0px 8px 16px 8px;
+	border-color:                transparent transparent #F15500 transparent;
+}
+div.main div.content div.create-select ul li.choice {
+	position:                    absolute;
+	top:                         0px;
+	left:                        0px;
+}
+div.main div.content div.create-select ul li.choice a {
+	color:                       #000000;
+}
+div.main div.content div.create-select ul li.choice a span.arrow {
+	visibility:                  visible;
+}
+div.main div.content div.create-select ul li a:hover {
+	color:                       #F15500;
+}
+div.main div.content div.create-select ul li a:hover span.arrow {
+	border-color:                #F15500 transparent transparent transparent;
+}
+div.main div.content div.create-select.selected ul li a:hover span.arrow {
+	border-color:                transparent transparent #F15500 transparent;
+}
+
+/* MAIN : CONTENT : ICONS SELECT */
+div.main div.content div.icons-select {
+	position:                    relative;
+	top:                         0px;
+	left:                        0px;
+	float:                       left;
+	padding:                     0px 0px 0px 10px;
+	width:                       505px;
+	height:                      30px;
+	
+	/* Transition */
+	-webkit-transition:          all 0.25s ease-out;
+	-moz-transition:             all 0.25s ease-out;
+	-ms-transition:              all 0.25s ease-out;
+	-o-transition:               all 0.25s ease-out;
+	-khtml-transition:           all 0.25s ease-out;
+	transition:                  all 0.25s ease-out;
+}
+
+/* MAIN : CONTENT : ICONS SELECT : MENU */
+div.main div.content div.icons-select ul {
+	float:                       left;
+	position:                    relative;
+	top:                         0px;
+	left:                        0px;
+	padding:                     30px 0px 0px 0px;
+	width:                       100%;
+	height:                      0px;
+	background-color:            #FFFFFF;
+	display:                     block;
+	overflow:                    hidden;
+	
+	/* Smooth fonts */
+	-webkit-transform:           rotate(-0.0000000001deg);
+	-webkit-text-stroke:         0.5px transparent;
+	
+	/* Border and shadow */
+	-webkit-border-radius:       5px;
+	-moz-border-radius:          5px;
+	border-radius:               5px;
+	-webkit-box-shadow:          0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:             0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	box-shadow:                  0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	behavior:                    url(htc/PIE.php)\9;
+	
+	/* Transition */
+	-webkit-transition:          all 0.25s ease-out;
+	-moz-transition:             all 0.25s ease-out;
+	-ms-transition:              all 0.25s ease-out;
+	-o-transition:               all 0.25s ease-out;
+	-khtml-transition:           all 0.25s ease-out;
+	transition:                  all 0.25s ease-out;
+}
+div.main div.content div.icons-select.selected {
+	height:                      90px;
+}
+div.main div.content div.icons-select.selected ul {
+	height:                      60px;
+}
+div.main div.content div.icons-select ul li,
+div.main div.content div.icons-select ul li a {
+	height:                      30px;
+	line-height:                 30px;
+	width:                       100%;
+	display:                     block;
+}
+div.main div.content div.icons-select ul li a {
+	padding:                     0px 0px 0px 10px;
+	text-align:                  left;
+	text-transform:              none;
+	font-family:                 'proxima-nova';
+	font-style:                  normal;
+	font-weight:                 700;
+	color:                       #000000;
+	font-size:                   11pt;
+	text-decoration:             none;
+	cursor:                      pointer;
+	background-color:            #FFFFFF;
+	
+	/* Transition */
+	-webkit-transition:          color 0.25s ease-in-out;
+	-moz-transition:             color 0.25s ease-in-out;
+	-ms-transition:              color 0.25s ease-in-out;
+	-o-transition:               color 0.25s ease-in-out;
+	-khtml-transition:           color 0.25s ease-in-out;
+	transition:                  color 0.25s ease-in-out;
+}
+div.main div.content div.icons-select ul li a span.icon,
+div.main div.content div.icons-select ul li a span.icon span {
+	float:                       left;
+	width:                       27px;
+	height:                      30px;
+	display:                     block;
+	
+	/* Background */
+	background-position:         0px 0px;
+	background-repeat:           no-repeat;
+}
+div.main div.content div.icons-select ul li a span.icon span {
+	/* Background */
+	background-position:         0px -30px;
+	
+	/* Opacity */
+	-webkit-opacity:             0.0;
+	-moz-opacity:                0.0;
+	-o-opacity:                  0.0;
+	-khtml-opacity:              0.0;
+	opacity:                     0.0;
+	-ms-filter:                  "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter:                      alpha(opacity=0);
+	
+	/* Transition */
+	-webkit-transition:          opacity 0.25s ease-in-out;
+	-moz-transition:             opacity 0.25s ease-in-out;
+	-ms-transition:              opacity 0.25s ease-in-out;
+	-o-transition:               opacity 0.25s ease-in-out;
+	-khtml-transition:           opacity 0.25s ease-in-out;
+	transition:                  opacity 0.25s ease-in-out;
+}
+div.main div.content div.icons-select ul li a span.icon.play,
+div.main div.content div.icons-select ul li a span.icon.play span {
+	background-image:            url(images/image-0005.png);
+}
+div.main div.content div.icons-select ul li a span.icon.gallery,
+div.main div.content div.icons-select ul li a span.icon.gallery span {
+	background-image:            url(images/image-0007.png);
+}
+div.main div.content div.icons-select ul li a span.icon.article,
+div.main div.content div.icons-select ul li a span.icon.article span {
+	background-image:            url(images/image-0009.png);
+}
+div.main div.content div.icons-select ul li a span.arrow {
+	float:                       right;
+	position:                    absolute;
+	top:                         8px;
+	right:                       18px;
+	font-size:                   1pt;
+	width:                       0px;
+	height:                      0px;
+	line-height:                 0px;
+	border-style:                solid;
+	border-width:                16px 8px 0px 8px;
+	border-color:                #F15500 transparent transparent transparent;
+	visibility:                  hidden;
+}
+div.main div.content div.icons-select.selected ul li a span.arrow {
+	border-width:                0px 8px 16px 8px;
+	border-color:                transparent transparent #F15500 transparent;
+}
+div.main div.content div.icons-select ul li.choice {
+	position:                    absolute;
+	top:                         0px;
+	left:                        0px;
+}
+div.main div.content div.icons-select ul li.choice a {
+	color:                       #000000;
+}
+div.main div.content div.icons-select ul li.choice a span.arrow {
+	visibility:                  visible;
+}
+div.main div.content div.icons-select ul li a:hover {
+	color:                       #F15500;
+}
+div.main div.content div.icons-select ul li a:hover span.arrow {
+	border-color:                #F15500 transparent transparent transparent;
+}
+div.main div.content div.icons-select.selected ul li a:hover span.arrow {
+	border-color:                transparent transparent #F15500 transparent;
+}
+div.main div.content div.icons-select ul li a:hover span.icon span,
+div.main div.content div.icons-select.selected ul li a:hover span.icon span {
+	/* Opacity */
+	-webkit-opacity:             1.0;
+	-moz-opacity:                1.0;
+	-o-opacity:                  1.0;
+	-khtml-opacity:              1.0;
+	opacity:                     1.0;
+	-ms-filter:                  "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter:                      alpha(opacity=100);
+}

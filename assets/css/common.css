@@ -1,0 +1,170 @@
+/* RESET STYLES */
+* {
+	margin:                 0;
+	padding:                0;
+	border:                 0;
+	outline:                0;
+	font-style:             normal;
+	font-size:              100%;
+	font-family:            inherit;
+	vertical-align:         baseline;
+}
+body {
+	line-height:            1;
+}
+:focus {
+	outline:                0;
+}
+ol, ul {
+	list-style:             none;
+}
+img {
+	display:                block;
+	border:                 none;
+}
+table {
+	border-collapse:        collapse;
+	border-spacing:         0;
+}
+blockquote, q {
+	quotes:                 none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:                '';
+	content:                none;
+}
+
+/* HTML5 FOR OLDER BROWSERS */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:                block;
+}
+
+/* HTML AND BODY */
+html, body {
+	font-family:                 Arial, Helvetica, sans-serif;
+	width:                       100%;
+	height:                      100%;
+	background-repeat:           repeat;
+	background-color:            #FFFFFF;
+	overflow:                    hidden;
+	
+	/* Font smoothing */
+	-webkit-font-smoothing:      antialiased;
+	
+	/* Preserve 3D */
+	-webkit-transform-style:     preserve-3d;
+	-moz-transform-style:        preserve-3d;
+	-ms-transform-style:         preserve-3d;
+	-o-transform-style:          preserve-3d;
+	-khtml-transform-style:      preserve-3d;
+	transform-style:             preserve-3d;
+	
+	/* Preserve 3D */
+	-webkit-transform:           translate3d(0,0,0);
+	-moz-transform:              translate3d(0,0,0);
+	-ms-transform:               translate3d(0,0,0);
+	-o-transform:                translate3d(0,0,0);
+	-khtml-transform:            translate3d(0,0,0);
+	transform:                   translate3d(0,0,0);
+}
+
+/* HTML */
+html {
+	overflow-y:                  auto;
+}
+
+/* BODY */
+body {
+	height:                      auto;
+	min-height:                  1500px;
+}
+
+/* MAIN */
+div.main {
+	width:                       100%;
+	height:                      auto;
+	min-width:                   960px;
+}
+div.main:after {
+	content:                     ".";
+	font-size:                   1pt;
+	display:                     block; 
+	height:                      0px;
+	clear:                       both; 
+	visibility:                  hidden;
+}
+
+/* MAIN : HEADER */
+div.main div.header {
+	position:                    relative;
+	top:                         0px;
+	left:                        0px;
+	width:                       100%;
+	height:                      98px;
+	background-color:            #000000;
+}
+div.main div.header div.wrapper {
+	position:                    absolute;
+	bottom:                      0px;
+	left:                        0px;
+	width:                       100%;
+	height:                      64px;
+	background-color:            #3C3C3C;
+	border-bottom:               #F15500 solid 2px;
+}
+div.main div.header div.wrapper div.center {
+	position:                    relative;
+	top:                         0px;
+	left:                        0px;
+	margin:                      0px auto;
+	width:                       960px;
+	height:                      64px;
+}
+div.main div.header div.wrapper div.center a.logo-link {
+	float:                       left;
+	width:                       245px;
+	height:                      64px;
+	font-size:                   1pt;
+	text-decoration:             none;
+	background-image:            url(images/image-0001.png);
+	background-position:         top left;
+	background-repeat:           no-repeat;
+	display:                     block;
+}
+div.main div.header div.wrapper div.center h2 {
+	position:                    absolute;
+	top:                         0px;
+	left:                        0px;
+	width:                       100%;
+	height:                      64px;
+	line-height:                 64px;
+	text-align:                  center;
+	font-family:                 'proxima-nova';
+	font-style:                  normal;
+	font-weight:                 700;
+	color:                       #FFFFFF;
+	font-size:                   12pt;
+	display:                     block;
+	
+	/* Smooth fonts */
+	-webkit-transform:           rotate(-0.0000000001deg);
+	-webkit-text-stroke:         0.5px transparent;
+}
+
+/* MAIN : CONTENT */
+div.main div.content {
+	position:                    relative;
+	top:                         0px;
+	left:                        0px;
+	width:                       100%;
+	height:                      auto;
+	min-height:                  1500px;
+}
+div.main div.content:after {
+	content:                     ".";
+	font-size:                   1pt;
+	display:                     block; 
+	height:                      0px;
+	clear:                       both; 
+	visibility:                  hidden;
+}
